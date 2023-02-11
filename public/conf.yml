@@ -1,47 +1,153 @@
 ---
 # Page meta info, like heading, footer text and nav links
 pageInfo:
-  title: Dashy
-  description: Welcome to your new dashboard!
+  title: My Dashboard
+  description: My Awasome Dashboard
   navLinks:
   - title: GitHub
-    path: https://github.com/Lissy93/dashy
-  - title: Documentation
-    path: https://dashy.to/docs
+    path: https://github.com/Hady-Eslam
+  - title: Linked In
+    path: https://www.linkedin.com/in/hady-eslam/
+  - title: My Site
+    path: https://Hady-Eslam.github.io
 
 # Optional app settings and configuration
 appConfig:
-  theme: colorful
+  theme: material-dark
 
 # Main content - An array of sections, each containing an array of items
 sections:
-- name: Getting Started
+- name: Qnotly Services And Resources
   icon: fas fa-rocket
   items:
-  - title: Dashy Live
-    description: Development a project management links for Dashy
-    icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
-    url: https://live.dashy.to/
+  - title: Heroku - Backend Service
+    description: Heroku Service
+    icon: fas fa-rocket
+    url: https://heroku.com
     target: newtab
-  - title: GitHub
-    description: Source Code, Issues and Pull Requests
-    url: https://github.com/lissy93/dashy
-    icon: favicon
-  - title: Docs
-    description: Configuring & Usage Documentation
-    provider: Dashy.to
-    icon: far fa-book
-    url: https://dashy.to/docs
-  - title: Showcase
-    description: See how others are using Dashy
-    url: https://github.com/Lissy93/dashy/blob/master/docs/showcase.md
-    icon: far fa-grin-hearts
-  - title: Config Guide
-    description: See full list of configuration options
-    url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
-    icon: fas fa-wrench
-  - title: Support
-    description: Get help with Dashy, raise a bug, or get in contact
-    url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
-    icon: far fa-hands-helping
-  
+  - title: CloudFlare - Developer Portal Service
+    description: CloudFlare Service
+    icon: fas fa-rocket
+    url: https://dash.cloudflare.com/
+    target: newtab
+  - title: Render.com - Dev Backend Service
+    description: Render.com Service
+    icon: fas fa-rocket
+    url: https://dashboard.render.com/
+    target: newtab
+  - title: ElephantSQL - Dev Database
+    description: Postgres Online Serives For Dev
+    icon: fas fa-rocket
+    url: https://customer.elephantsql.com/instance
+    target: newtab
+  - title: Vercel - Dev Web Apps Services
+    description: Dev Landing Page - Dev Developer Portal - Dev Main App
+    icon: fas fa-rocket
+    url: https://vercel.com
+    target: newtab
+  - title: Jira
+    description: Tasks Management Service
+    icon: fas fa-rocket
+    url: https://simple-fast-note.atlassian.net/jira/software/c/projects/QN/boards/2
+    target: newtab
+  - title: Mailtrap
+    description: Fake Email Service For Development
+    icon: fas fa-rocket
+    url: https://mailtrap.io/
+    target: newtab
+  - title: Figma
+    description: UI/UX Design
+    icon: fas fa-rocket
+    url: https://www.figma.com/file/IZfK6haDkjYftxFSoGN5gk/Qnotly?node-id=0%3A1
+    target: newtab
+  - title: Sentry
+    description: Error Handler
+    icon: fas fa-rocket
+    url: https://qnotly.sentry.io/issues/?project=6755748
+    target: newtab
+  - title: Cron Jobs
+    description: Cron Jobs
+    icon: fas fa-rocket
+    url: https://console.cron-job.org/dashboard
+    target: newtab
+  - title: NameCheap
+    description: NameCheap - Domain Registration Services
+    icon: fas fa-rocket
+    url: https://www.namecheap.com/
+    target: newtab
+  - title: Google Cloud Storage
+    description: Google Cloud Storage
+    icon: fas fa-rocket
+    url: https://console.cloud.google.com/storage/browser?prefix=&authuser=2&project=qnotly
+    target: newtab
+
+- name: Qnotly Production
+  icon: fas fa-rocket
+  items:
+  - title: APIs
+    description: Qnotly API Server
+    icon: fas fa-rocket
+    url: https://api.qnotly.com/
+    target: newtab
+  - title: Developer Portal
+    description: Qnotly Developer Portal
+    icon: fas fa-rocket
+    url: https://developer.qnotly.com/
+    target: newtab
+  - title: API Docs
+    description: Qnotly API Docs
+    icon: fas fa-rocket
+    url: https://api.qnotly.com/v1.0/redoc/
+    target: newtab
+
+- name: Qnotly Dev
+  icon: fas fa-rocket
+  items:
+  - title: APIs
+    description: Qnotly API Server
+    icon: fas fa-rocket
+    url: https://api.dev.qnotly.com/
+    target: newtab
+  - title: Landing Page
+    description: Qnotly Landing Page
+    icon: fas fa-rocket
+    url: https://dev.qnotly.com/
+    target: newtab
+  - title: Web App
+    description: Qnotly Web App
+    icon: fas fa-rocket
+    url: https://app.dev.qnotly.com/
+    target: newtab
+  - title: Developer Portal
+    description: Qnotly Developer Portal
+    icon: fas fa-rocket
+    url: https://developer.dev.qnotly.com/
+    target: newtab
+  - title: API Docs
+    description: Qnotly API Docs
+    icon: fas fa-rocket
+    url: https://api.dev.qnotly.com/v1.0/redoc/
+    target: newtab
+
+- name: Gmail
+  icon: fas fa-rocket
+  items:
+  - title: Qnotly Customer Email
+    description: Qnotly Customer Email
+    icon: fas fa-rocket
+    url: https://mail.google.com/mail/u/5/#inbox
+    target: newtab
+  - title: Qnotly Simple Fast Note Email
+    description: Qnotly Simple Fast Note Email
+    icon: fas fa-rocket
+    url: https://mail.google.com/mail/u/2/?ogbl#inbox
+    target: newtab
+
+- name: Github
+  icon: fas fa-rocket
+  items:
+  - title: Qnotly
+    description: Qnotly Repo
+    icon: fas fa-rocket
+    url: https://github.com/qnotly/
+    target: newtab
